@@ -171,7 +171,6 @@ export default{
               const data=response.data.data
               this.list=data.rows
               this.total=data.total
-
           })
 
       },
@@ -199,8 +198,6 @@ export default{
           }
            this.isEdit=false //注意重新赋值false
            this.dialogSupplierVisible=false;//关闭窗口
-           
-         
       },
       handleAdd(){
           this.dialogFormVisible = true;

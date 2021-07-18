@@ -2,7 +2,7 @@
   <div>
     <!-- ：inline="true"  表单一行显示 -->
     <el-form
-      ref="searchForm"
+    ref="searchForm"
       :inline="true"
       :model="searcMap"
       style="margin-top: 20px"
@@ -108,7 +108,7 @@
         :rules="rules"
         ref="pojoForm"
         label-width="100px"
-        label-position="right"
+        label-position="left"
         style="width:400px"
         :model="pojo"
       >
@@ -200,7 +200,7 @@ export default {
         phone:'',
         money:0,
         integral:0,
-          payType: '',
+        payType: '',
         address:''
         
       }, //提交的数据

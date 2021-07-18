@@ -78,8 +78,6 @@ export default{
                 oldPass:'',
                 pass:'',
                 checkPass:''
-
-
             },
             rules:{
             oldPass:[{required:true,message:'原密码不能为空',trigger:"blur"},
